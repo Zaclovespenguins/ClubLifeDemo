@@ -1,0 +1,9 @@
+# Configuration file for https://skip.tools project
+build:
+  contents:
+    - block: 'dependencies'
+      contents:
+        - 'implementation("com.google.wallet.button:compose-wallet-button:0.1.0-beta01")'
+        - 'implementation("com.google.android.gms:play-services-pay:16.5.0")'
+        - 'implementation("io.github.ehsannarmani:compose-charts:0.0.19")'
+        # the 0.1.0-beta01 is really important here. All dependencies must include a version number

@@ -1,0 +1,157 @@
+{
+  "genericClasses": [
+    {
+      "id": "undefined.pass.slot.generic",
+      "classTemplateInfo": {
+        "cardTemplateOverride": {
+          "cardRowTemplateInfos": [
+            {
+              "oneItem": {
+                "item": {
+                  "firstValue": {
+                    "fields": [
+                      {
+                        "fieldPath": "object.textModulesData['member']"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "oneItem": {
+                "item": {
+                  "firstValue": {
+                    "fields": [
+                      {
+                        "fieldPath": "object.textModulesData['subtitle']"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "oneItem": {
+                "item": {
+                  "firstValue": {
+                    "fields": [
+                      {
+                        "fieldPath": "object.textModulesData['Membership Type']"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "genericObjects": [
+    {
+      "id": "undefined.c87e369a-ffea-4cb6-8971-b0f38510b0db",
+      "classId": "undefined.pass.slot.generic",
+      "barcode": {
+        "type": "QR_CODE",
+        "value": "$1$PSd$0002016950$eg+zTq+nXvxxng=="
+      },
+      "hexBackgroundColor": "#ffffff",
+      "textModulesData": [
+        {
+          "id": "member",
+          "localizedHeader": {
+            "defaultValue": {
+              "language": "en",
+              "value": "Name"
+            }
+          },
+          "localizedBody": {
+            "defaultValue": {
+              "language": "en",
+              "value": "Zachary Reyes"
+            }
+          }
+        },
+        {
+          "id": "subtitle",
+          "localizedHeader": {
+            "defaultValue": {
+              "language": "en",
+              "value": "MEMBER SINCE"
+            }
+          },
+          "localizedBody": {
+            "defaultValue": {
+              "language": "en",
+              "value": "November 2024"
+            }
+          }
+        },
+        {
+          "id": "Membership Type",
+          "localizedHeader": {
+            "defaultValue": {
+              "language": "en",
+              "value": "Membership Type"
+            }
+          },
+          "localizedBody": {
+            "defaultValue": {
+              "language": "en",
+              "value": "Amazon Promo Test"
+            }
+          }
+        },
+        {
+          "id": "passslot-poweredby",
+          "localizedHeader": {
+            "defaultValue": {
+              "language": "en",
+              "value": "Powered by PassSlot"
+            }
+          },
+          "localizedBody": {
+            "defaultValue": {
+              "language": "en",
+              "value": "Find out more and create your own passes at:\nhttp://www.passslot.com"
+            }
+          }
+        },
+        {
+          "id": "passslot-legalnotice",
+          "localizedHeader": {
+            "defaultValue": {
+              "language": "en",
+              "value": "Legal Notice"
+            }
+          },
+          "localizedBody": {
+            "defaultValue": {
+              "language": "en",
+              "value": "This pass has been created by \"None\" for evaluation purposes using the third party service PassSlot which is owned and operated by:\n\nPassSlot\nEnglisch-Gruss-Strasse 38\n3902 Brig-Glis\nSwitzerland\nhttp://www.passslot.com support@passslot.com\n+41275081011\n\nThe Pass issuer \"None\" has attested that any trademarks and/or copyrighted content contained within this pass are being used with the consent of the owner.\n\nQuestions, complaints or claims with respect to this pass should be addressed to the pass issuer \"None\".\n\nNEITHER APPLE® NOR PASSSLOT SHALL BE LIABLE FOR ANY DAMAGES OR LOSSES ARISING FROM ANY USE, DISTRIBUTION, MISUSE, RELIANCE ON, INABILITY TO USE, INTERRUPTION, SUSPENSION, OR TERMINATION OF PASSBOOK, THIS PASS, OR ANY SERVICES PROVIDED IN CONNECTION THEREWITH, INCLUDING BUT NOT LIMITED TO ANY LOSS OR FAILURE TO DISPLAY YOUR PASS IN PASSBOOK OR ANY CLAIM ARISING FROM ANY USE OF THE FOREGOING BY YOU, THE PASS ISSUER."
+            }
+          }
+        }
+      ],
+      "cardTitle": {
+        "defaultValue": {
+          "language": "en",
+          "value": "N/A"
+        }
+      },
+      "header": {
+        "defaultValue": {
+          "language": "en",
+          "value": "N/A"
+        }
+      },
+      "logo": {
+        "sourceUri": {
+          "uri": "image-tiYwRMqZ05LHBwb26AzeJ.png"
+        }
+      }
+    }
+  ]
+}
