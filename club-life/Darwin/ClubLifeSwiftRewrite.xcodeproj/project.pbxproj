@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		200A53BF2CFBD54F0092BA81 /* SkipSQLPlus in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 203754D82CFBCBA200F4A834 /* SkipSQLPlus */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		203754D42CFBC36F00F4A834 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 203754D32CFBC36F00F4A834 /* Kingfisher */; };
-		203754D72CFBCBA200F4A834 /* SkipSQL in Frameworks */ = {isa = PBXBuildFile; productRef = 203754D62CFBCBA200F4A834 /* SkipSQL */; };
-		203754D92CFBCBA200F4A834 /* SkipSQLPlus in Frameworks */ = {isa = PBXBuildFile; productRef = 203754D82CFBCBA200F4A834 /* SkipSQLPlus */; };
-		20D4E2E82CFD019A0092F260 /* ACarousel in Frameworks */ = {isa = PBXBuildFile; productRef = 20D4E2E72CFD019A0092F260 /* ACarousel */; };
 		49231BAC2AC5BCEF00F98ADF /* ClubLifeSwiftRewriteApp in Frameworks */ = {isa = PBXBuildFile; productRef = 49231BAB2AC5BCEF00F98ADF /* ClubLifeSwiftRewriteApp */; };
 		49231BAD2AC5BCEF00F98ADF /* ClubLifeSwiftRewriteApp in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 49231BAB2AC5BCEF00F98ADF /* ClubLifeSwiftRewriteApp */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		496BDBEE2B8A7E9C00C09264 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 496BDBED2B8A7E9C00C09264 /* Localizable.xcstrings */; };
@@ -26,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				200A53BF2CFBD54F0092BA81 /* SkipSQLPlus in Embed Frameworks */,
 				49231BAD2AC5BCEF00F98ADF /* ClubLifeSwiftRewriteApp in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -53,11 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203754D42CFBC36F00F4A834 /* Kingfisher in Frameworks */,
-				203754D92CFBCBA200F4A834 /* SkipSQLPlus in Frameworks */,
-				203754D72CFBCBA200F4A834 /* SkipSQL in Frameworks */,
 				49231BAC2AC5BCEF00F98ADF /* ClubLifeSwiftRewriteApp in Frameworks */,
-				20D4E2E82CFD019A0092F260 /* ACarousel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,10 +115,6 @@
 			name = ClubLifeSwiftRewrite;
 			packageProductDependencies = (
 				49231BAB2AC5BCEF00F98ADF /* ClubLifeSwiftRewriteApp */,
-				203754D32CFBC36F00F4A834 /* Kingfisher */,
-				203754D62CFBCBA200F4A834 /* SkipSQL */,
-				203754D82CFBCBA200F4A834 /* SkipSQLPlus */,
-				20D4E2E72CFD019A0092F260 /* ACarousel */,
 			);
 			productName = App;
 			productReference = 496BDBEB2B89A47800C09264 /* ClubLifeSwiftRewrite.app */;
@@ -157,9 +143,6 @@
 			);
 			mainGroup = 49F90C1F2A52156200F06D93;
 			packageReferences = (
-				203754D22CFBC36F00F4A834 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				203754D52CFBCBA200F4A834 /* XCRemoteSwiftPackageReference "skip-sql" */,
-				20D4E2E62CFD019A0092F260 /* XCRemoteSwiftPackageReference "ACarousel" */,
 			);
 			productRefGroup = 496BDBEC2B89A47800C09264 /* Products */;
 			projectDirPath = "";
@@ -221,6 +204,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = NWV8LZ45D5;
 				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 			};
@@ -231,6 +215,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = NWV8LZ45D5;
 				ENABLE_PREVIEWS = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 			};
@@ -297,54 +282,7 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		203754D22CFBC36F00F4A834 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.1.1;
-			};
-		};
-		203754D52CFBCBA200F4A834 /* XCRemoteSwiftPackageReference "skip-sql" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/skiptools/skip-sql";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.7.2;
-			};
-		};
-		20D4E2E62CFD019A0092F260 /* XCRemoteSwiftPackageReference "ACarousel" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/JWAutumn/ACarousel";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		203754D32CFBC36F00F4A834 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 203754D22CFBC36F00F4A834 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		203754D62CFBCBA200F4A834 /* SkipSQL */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 203754D52CFBCBA200F4A834 /* XCRemoteSwiftPackageReference "skip-sql" */;
-			productName = SkipSQL;
-		};
-		203754D82CFBCBA200F4A834 /* SkipSQLPlus */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 203754D52CFBCBA200F4A834 /* XCRemoteSwiftPackageReference "skip-sql" */;
-			productName = SkipSQLPlus;
-		};
-		20D4E2E72CFD019A0092F260 /* ACarousel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 20D4E2E62CFD019A0092F260 /* XCRemoteSwiftPackageReference "ACarousel" */;
-			productName = ACarousel;
-		};
 		49231BAB2AC5BCEF00F98ADF /* ClubLifeSwiftRewriteApp */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ClubLifeSwiftRewriteApp;
